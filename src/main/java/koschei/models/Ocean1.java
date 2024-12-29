@@ -1,10 +1,8 @@
 package koschei.models;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-
 public class Ocean1 {
 
-    private Island2 island2;
+    private final Island2 island2;
 
     public Ocean1(Island2 island2) {
         this.island2 = island2;
