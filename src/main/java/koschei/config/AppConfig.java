@@ -10,19 +10,13 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
     @Bean
-    public static Island2 getIsland(Wood3 wood) {
+    public Island2 getIsland(Wood3 wood) {
         return new Island2(wood);
     }
 
     @Bean
-    public static Egg6 getEgg(Needle7 needle7) {
+    public Egg6 getEgg(Needle7 needle7) {
         return new Egg6(needle7);
     }
 
-    @Bean
-    public Deth8 deth8() {
-        Deth8 deth8 = new Deth8();
-        deth8.setDeth8("");
-        return deth8;
-    }
 }
